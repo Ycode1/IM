@@ -5,8 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.itstack</groupId>
-    <artifactId>IM_WeChat</artifactId>
+    <artifactId>itstack-naive-chat-ui-02</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+
+
+
+    <build>
+        <finalName>itstack-naive-chat-ui-02</finalName>
+        <plugins>
+            <plugin>
+                <groupId>com.zenjava</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>8.8.3</version>
+                <configuration>
+                    <mainClass>com.itstack.naive.chat.ui.Application</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
