@@ -9,10 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <artifactId>itstack-native-chat-server-agreement</artifactId>
     <packaging>jar</packaging>
-
-    <artifactId>itstack-naive-chat-server-agreement</artifactId>
-
     <properties>
         <!-- Protostuff -->
         <protostuff.version>1.0.10</protostuff.version>
