@@ -1,25 +1,18 @@
 package com.istack.naive.chat.ui.view;
 
-
-
 import javafx.scene.Cursor;
 import javafx.scene.Parent;
 import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-import javax.sound.midi.Soundbank;
-
-/**
- * UI主体
- */
 public abstract class UIObject extends Stage {
 
     protected Parent root;
     private double xOffset;
     private double yOffset;
 
-    public  <T> T $(String id, Class<T> clazz) {
+    public <T> T $(String id, Class<T> clazz) {
         return (T) root.lookup("#" + id);
     }
 
@@ -52,3 +45,4 @@ public abstract class UIObject extends Stage {
     public abstract void initEventDefine();
 
 }
+
