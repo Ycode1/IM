@@ -9,13 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <name>IM_WeChat</name>
     <modules>
         <module>itstack-naive-chat-ui</module>
         <module>itstack-naive-server</module>
         <module>itstack-naive-chat-client</module>
     </modules>
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>
