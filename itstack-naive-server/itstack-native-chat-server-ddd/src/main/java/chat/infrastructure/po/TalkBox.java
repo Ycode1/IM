@@ -3,7 +3,7 @@ package chat.infrastructure.po;
 import java.util.Date;
 
 /**
- * 谈话框表
+ * 对话表
  * @author asus
  */
 public class TalkBox {
