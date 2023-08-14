@@ -1,5 +1,7 @@
 package chat.protocol;
 
+import chat.protocol.login.LoginRequest;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -14,7 +16,7 @@ public abstract class Packet {
     private final static Map<Byte, Class<? extends Packet>> packetType = new ConcurrentHashMap<>();
 
     static {
- //       packetType.put(Command.LoginRequest, LoginRequest.class);
+        packetType.put(Command.LoginRequest, LoginRequest.class);
 //        packetType.put(Command.LoginResponse, LoginResponse.class);
 //        packetType.put(Command.MsgRequest, MsgRequest.class);
 //        packetType.put(Command.MsgResponse, MsgResponse.class);
